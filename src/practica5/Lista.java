@@ -1,4 +1,6 @@
-public interface Lista<E>{
+package practica5;
+
+public interface Lista<E> {
     void addFirst(E elemento);
     void addLast(E elemento);
     void addEnesima(int indice, E elemento);
@@ -9,7 +11,7 @@ public interface Lista<E>{
 
     E getFirst();
     E getLast();
-    E getEnecima();
+    E getEnesima(int indice);
 
     int size();
 
